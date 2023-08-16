@@ -40,7 +40,7 @@ If you have an Azure event hub created with event data there, follow these steps
    - **Connection name**: Enter a name for the cloud connection.
    - **Connection type**: The default value is `EventHub`.
    - **Event Hub namespace**: Enter the name of your Azure event hub namespace.
-   - **Authentication**: Go to your Azure event hub and create a policy with `Manage` or `Listen` permission under **Share access policies**. Then use **policy name** and **primary key** as the **Shared Access Key Name** and **Shared Access Key**.
+   - **Authentication**: Go to your Azure event hub and create a policy with `Manage` permission under **Share access policies**. Then use **policy name** and **primary key** as the **Shared Access Key Name** and **Shared Access Key**.
 
        :::image type="content" source="./media/add-manage-eventstream-sources/azure-event-hub-policy-key.png" alt-text="Screenshot showing the Azure event hub policy key." lightbox="./media/add-manage-eventstream-sources/azure-event-hub-policy-key.png":::
 
